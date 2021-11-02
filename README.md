@@ -17,7 +17,7 @@
 
 {
 
-  ***"domain": "dimaalabsibasic-express-server.herokuapp.com"***
+  ***"domain": "dimaalabsi-basic-api-server.herokuapp.com/"***
 
   ***"status": "running",***
 
@@ -33,14 +33,13 @@
 
 ## Heroku applications 
 
-*   [main branch](https://dimaalabsibasic-express-server.herokuapp.com/)  
-dimaalabsibasic-express-server.herokuapp.com/
+*   [main branch](https://dimaalabsi-basic-api-server.herokuapp.com)  
+dimaalabsi-basic-api-server.herokuapp.com/
 
 ## Github actions
 
-*    [actions](https://github.com/DimaAlabsi/basic-express-server/actions)      
-  github.com/DimaAlabsi/basic-express-server/actions
-
+*    [actions](https://github.com/DimaAlabsi/basic-api-server/actions)      
+github.com/DimaAlabsi/basic-api-server/actions
 ## pull request
 
 * [last pull request](https://github.com/DimaAlabsi/basic-express-server/pull/2)
