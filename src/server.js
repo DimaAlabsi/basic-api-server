@@ -3,7 +3,7 @@
 const express = require('express');
 require('dotenv').config();
 const app = express();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8080 ;
 const handle404Error = require('./error-handlers/404'); //Import handle404fun into  server and set it up to be “used” after the other routes
 const error500Handle = require('./error-handlers/500');
 const validator = require('./middleware/validator');
