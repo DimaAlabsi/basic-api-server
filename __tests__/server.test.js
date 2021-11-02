@@ -60,19 +60,19 @@ describe('Web server', () => {
     
       // test if can read one person
       it('can get one clothes', async () => {
-        const response= await mockRequest.get('/clothes/6');
+        const response= await mockRequest.get('/clothes/1');
         expect(response.status).toBe(200)
     
       });
     
       // test if can update a person
       it('can update clothes', async () => {
-    const response = await mockRequest.put('/clothes/4');
+    const response = await mockRequest.put('/clothes/1');
     expect(response.status).toBe(204);
       });
       // test if can delete a person
       it('can delete a record', async () => {
-        const response = await mockRequest.delete('/clothes/4');
+        const response = await mockRequest.delete('/clothes/1');
         expect(response.status).toBe(204);
 
     
