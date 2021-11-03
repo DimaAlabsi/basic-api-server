@@ -3,7 +3,11 @@
 require('dotenv').config();
 
 // Connects to our database depending on the URI as an environmental variable
-const POSTGRES_URI = process.env.NODE_ENV === 'test' ? 'sqlite:memory:' : process.env.DATABASE_URL;
+const POSTGRES_URI = process.env.HEROKU_POSTGRESQL_COBALT_URL ;
+//  process.env.NODE_ENV 
+// === 
+// 'test' ? 'sqlite:memory:' :
+ 
 
 // require both the Sequelize and Datatype  constructor from the sequelize package
 const { Sequelize, DataTypes } = require('sequelize');
