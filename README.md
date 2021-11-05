@@ -17,7 +17,7 @@
 
 {
 
-  ***"domain": "dimaalabsi-basic-api-server.herokuapp.com/"***
+  ***"domain": "dimaalabsibasic-api-server.herokuapp.com/"***
 
   ***"status": "running",***
 
@@ -33,8 +33,8 @@
 
 ## Heroku applications 
 
-*   [main branch](https://dimaalabsi-basic-api-server.herokuapp.com)  
-dimaalabsi-basic-api-server.herokuapp.com/
+*   [main branch](https://dimaalabsibasic-api-server.herokuapp.com/)  
+dimaalabsibasic-api-server.herokuapp.com/
 
 ## Github actions
 
